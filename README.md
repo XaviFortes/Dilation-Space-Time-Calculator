@@ -9,3 +9,5 @@ Take in mind that you will see how the time decreases more porcentually at aroun
 ## Usage
 python3 timetravel.pyc
 Just select ur preferred language and put the selected languages.
+
+![Preview of the program](https://lh5.googleusercontent.com/yP3u5sMT55iKRVgNvZpMbYO9IXzjdKswr6Py_QDlOH-5tmqhEbeOBWHr-8FHrsusJo0-47im2FnANA=w1920-h987)
