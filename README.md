@@ -1,5 +1,5 @@
 # Dilation-Space-Time-Calculator
-[![Build Status](https://travis-ci.org/XaviFortes/Dilation-Space-Time-Calculator.svg?branch=master)](https://travis-ci.org/XaviFortes/Dilation-Space-Time-Calculator)
+
 
 With this python script, you will be able to calculate the real-time on a person that speed = X
 
