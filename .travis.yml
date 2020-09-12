@@ -24,9 +24,9 @@ python:
   - "3.8-dev"  
   - "nightly"
   
-script: python3 timetravel.pyc
+script: python3 timetravel.pyc < .test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - coverage run udpflood.py < .test
+  - coverage run timetravel.pyc < .test
   - codecov
