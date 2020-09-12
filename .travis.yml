@@ -15,7 +15,6 @@ install:
     - pip install coverage
 
 python:
-  - "2.7"
   - "3.4"
   - "3.5"
   - "3.6"      
@@ -24,9 +23,9 @@ python:
   - "3.8-dev"  
   - "nightly"
   
-script: python3 timetravel-en.pyc < .test
+script: python3 timetravel.py < .test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - coverage run timetravel-en.pyc < .test
+  - coverage run timetravel.py < .test
   - codecov
